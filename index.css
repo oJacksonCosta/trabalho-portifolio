@@ -106,12 +106,43 @@ header span {
   width: 50dvw;
   height: 30dvh;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .projeto > img {
   width: 220px;
   height: auto;
+  border-radius: 20px;
+}
+
+.projetos h1 {
+  margin-bottom: 25px;
+}
+
+.projeto h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.projeto p {
+  font-weight: 200;
+}
+
+.projeto button {
+  height: 3rem;
+  border: none;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #00ffee;
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+
+.projeto button:hover {
+  background-color: #00decf;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .sobre {
@@ -232,6 +263,10 @@ header span {
 
   header > img {
     width: 25%;
+  }
+
+  .projeto {
+    width: 80dvw;
   }
 
   @media screen and (max-width: 700px) {
