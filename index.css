@@ -137,6 +137,12 @@ header span {
   border-radius: 15px;
   padding: 10px 30px;
   margin-top: 15px;
+  margin-right: 8px;
+}
+
+.projeto a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .projeto button:hover {
@@ -225,7 +231,7 @@ header span {
   height: 3rem;
   border: none;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   background-color: #00ffee;
   border-radius: 15px;
   padding: 10px;
